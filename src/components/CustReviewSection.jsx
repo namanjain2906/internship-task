@@ -13,14 +13,17 @@ const CustReviewSection = () => {
 
       <div
         className="
-          mt-10 mb-20 
-          grid 
-          grid-cols-1 
-          sm:grid-cols-2 
-          lg:grid-cols-3 
+          mt-30 mb-30 max-lg:mx-8 max-lg:mt-20
+          flex
+          justify-around
+          items-center
           gap-6 
           place-items-center
           px-4
+          max-lg:overflow-x-scroll
+          scrollbar-hidden
+          [scrollbar-width:none]
+          
         "
       >
         <ReviewCard 

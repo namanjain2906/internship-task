@@ -13,7 +13,7 @@ const DescriptiveSection = () => {
       <div
         className='
           bg-[url("/descriptiveFrame.svg")] bg-center bg-cover bg-no-repeat 
-          h-auto lg:h-135 
+          h-auto lg:h-140 
           p-5 sm:p-8 
           mx-5 sm:mx-10 lg:mx-15 
           mt-10 lg:mt-40 
@@ -22,6 +22,7 @@ const DescriptiveSection = () => {
           items-center 
           gap-10 
           justify-evenly
+          rounded-4xl
         '
       >
 
@@ -65,8 +66,8 @@ const DescriptiveSection = () => {
               />
 
               <span className="flex items-end">
-                <p className="opacity-75 font-bold text-md sm:text-lg">01/</p>
-                <p className="opacity-75 font-bold text-md sm:text-lg">04</p>
+                <p className="opacity-75 font-bold text-md ">01/</p>
+                <p className="opacity-75 font-bold text-sm ">04</p>
               </span>
 
               <FontAwesomeIcon
@@ -90,3 +91,5 @@ const DescriptiveSection = () => {
 };
 
 export default DescriptiveSection;
+
+{/* <div className='bg-[url("/descriptiveFrame.svg")] bg-center bg-cover bg-no-repeat h-135 p-5 pl-0 mx-15 mt-40 flex items-center gap-10 justify-evenly'></div> */}

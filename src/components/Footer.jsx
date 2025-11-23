@@ -1,4 +1,5 @@
 import React from "react";
+import plant from "../assets/plant.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         {/* LEFT SECTION */}
         <div className="max-w-sm">
           <div className="flex items-center gap-2">
-            <img src="/plantIcon.png" className="w-10 h-10" alt="Logo" />
+            <img src={plant} className="w-10 h-10" alt="Logo" />
             <p className="text-2xl font-semibold">FloraVision.</p>
           </div>
 

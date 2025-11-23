@@ -3,7 +3,7 @@ import bagIcon from "../assets/bagIcon.png";
 
 const PlantCardSm = ({ Image, Title, Content, Price }) => {
   return (
-    <div className='bg-[url("/plantFrameSm.svg")] bg-center bg-cover bg-no-repeat flex flex-col justify-end w-80 h-103 mt-30 p-10'>
+    <div className='bg-[url("/plantFrameSm.svg")] bg-center bg-cover bg-no-repeat flex flex-col justify-end w-90 h-110 mt-30 p-10 shrink-0'>
       <img src={Image} className="w-full " alt="Plant image" />
       <div className="flex flex-col opacity-75 gap-4 ">
         <p className="text-3xl  ">{Title}</p>

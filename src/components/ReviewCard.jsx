@@ -58,6 +58,7 @@ const ReviewCard = ({ Name, Image, Content }) => {
         max-w-[320px] sm:max-w-[350px] 
         p-6 sm:p-8 
         rounded-xl
+        shrink-0
       "
     >
       {/* Profile Section */}

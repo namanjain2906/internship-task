@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
 
       <ul
-        className={`font-indie text-xl flex items-center gap-12 max-lg:absolute max-lg:top-20 max-lg:backdrop-blur-xl max-lg:right-0 max-lg:flex-col max-lg:bg-[#1B2316]/75  max-lg:rounded-4xl max-lg:w-full max-lg:p-5 max-lg:shadow-md ${isMenuOpen ? "max-lg:flex " : "max-lg:hidden"
+        className={`font-indie text-xl flex items-center gap-12 max-lg:absolute max-lg:top-20 max-lg:backdrop-blur-xl max-lg:right-0 max-lg:flex-col max-lg:bg-[#1B2316]/75  max-lg:rounded-4xl max-lg:w-full max-lg:p-5 max-lg:shadow-md ${isMenuOpen ? "max-lg:flex max-lg:bg-emerald-950 text-white" : "max-lg:hidden"
           }`}
       >
         <li className="cursor-pointer">
