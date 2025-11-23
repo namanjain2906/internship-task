@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+body{
+  background-color: #1B2316;
+  color: #ffffff;
+}
+:root{
+  --font-inter: 'Inter', sans-serif;
+  --font-indie: 'Indie Flower', cursive;
+}
+.font-inter { font-family: var(--font-inter); }
+.font-indie { font-family: var(--font-indie); }
+/*
+Source - https://stackoverflow.com/a
+Posted by alphazwest, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-20, License - CC BY-SA 4.0
+*/
+
+.division{
+  width: 300px;
+  height: 250px;
+  border:  1em ;
+  border-radius: 30px;
+
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background:url("/client/public/Background_plant.jpg")  ;
+}
