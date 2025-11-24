@@ -10,7 +10,7 @@ const PlantCardSm = ({ Image, Title, Content, Price }) => {
         <p className="w-full max-sm:w-full text-lg ">{Content}</p>
         <div className="flex items-center justify-between">
           <p className="text-3xl ">Rs. {Price}/-</p>
-          <button className="border-2 rounded-lg p-2  cursor-pointer text-md opacity-75 ">
+          <button className="border-2 rounded-lg p-2  cursor-pointer text-md opacity-75 hover:opacity-100">
             <img src={bagIcon} className="w-5 h-5" alt="Bag Icon" />
           </button>
         </div>

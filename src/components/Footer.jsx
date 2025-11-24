@@ -4,9 +4,7 @@ import plant from "../assets/plant.png";
 const Footer = () => {
   return (
     <footer className="bg-[#1a2216] text-white py-16 px-6 sm:px-12 lg:px-20">
-      {/* MAIN CONTENT ROW */}
       <div className="flex flex-col lg:flex-row justify-between gap-16">
-        {/* LEFT SECTION */}
         <div className="max-w-sm">
           <div className="flex items-center gap-2">
             <img src={plant} className="w-10 h-10" alt="Logo" />
@@ -17,14 +15,9 @@ const Footer = () => {
             "From lush indoor greens to vibrant outdoor blooms, our plants are
             crafted to thrive and elevate your living environment."
           </p>
-
-          {/* Social Icons */}
         </div>
-
-        {/* QUICK LINKS */}
         <div>
           <p className="text-xl font-semibold mb-5">Quick Link's</p>
-
           <ul className="flex flex-col gap-3 text-sm sm:text-base opacity-75">
             <li className="hover:opacity-100 cursor-pointer underline">Home</li>
             <li className="hover:opacity-100 cursor-pointer underline">
@@ -38,11 +31,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
-        {/* SUBSCRIBE BOX */}
         <div className="max-w-sm">
           <p className="text-xl font-semibold mb-5">For Every Update.</p>
-
           <div className="flex">
             <input
               type="email"
@@ -64,8 +54,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* BOTTOM TEXT */}
       <div className="flex items-center justify-between max-md:flex-col" >
         <div className="flex gap-6 mt-6 font-semibold text-sm items-center  ">
           <span className="cursor-pointer opacity-75 hover:opacity-100">

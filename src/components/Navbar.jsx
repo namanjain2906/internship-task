@@ -23,10 +23,10 @@ const Navbar = () => {
         className={`font-indie text-xl flex items-center gap-12 max-lg:absolute max-lg:top-20 max-lg:backdrop-blur-xl max-lg:right-0 max-lg:flex-col max-lg:bg-[#1B2316]/75  max-lg:rounded-4xl max-lg:w-full max-lg:p-5 max-lg:shadow-md ${isMenuOpen ? "max-lg:flex max-lg:bg-emerald-950 text-white" : "max-lg:hidden"
           }`}
       >
-        <li className="cursor-pointer">
+        <li className="cursor-pointer hover:opacity-75">
           <Link to="/">Home</Link>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer hover:opacity-75">
           <Link to="/plants-type">
             Plants Type
 
@@ -34,10 +34,10 @@ const Navbar = () => {
 
           </Link>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer hover:opacity-75">
           <Link to="/more">More</Link>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer hover:opacity-75">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
@@ -45,14 +45,14 @@ const Navbar = () => {
       <div className="flex justify-center items-center gap-10 max-lg:gap-5">
         <button>
           <img
-            className="h-7 w-7 opacity-75 cursor-pointer"
+            className="h-7 w-7 opacity-75 cursor-pointer hover:opacity-100"
             src={searchButton}
             alt="Search Icon"
           />
         </button>
         <button>
           <img
-            className="h-7 w-7 opacity-75 cursor-pointer"
+            className="h-7 w-7 opacity-75 cursor-pointer hover:opacity-100"
             src={bagIcon}
             alt="Bag Icon"
           />
